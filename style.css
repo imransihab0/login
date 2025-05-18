@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+/* Replace with the correct import for Open Sauce, e.g., if hosted locally or via a custom CDN */
+@import url("path-to-open-sauce-font.css"); /* Update this with the actual URL or local path for Open Sauce */
 
 * {
   margin: 0;
@@ -8,7 +9,7 @@
 
 body,
 input {
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sauce", sans-serif; /* Changed from Poppins to Open Sauce */
 }
 
 .container {
@@ -150,6 +151,7 @@ form.sign-in-form {
 .btn:hover {
   background-color: #4d84e2;
 }
+
 .panels-container {
   position: absolute;
   height: 100%;
